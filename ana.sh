@@ -1,4 +1,3 @@
-cat > ana.sh << 'EOF'
 #!/bin/bash
 
 # Configurable parameters
@@ -231,4 +230,3 @@ echo "- Files Skipped: $(cat $SKIPPED_COUNT_FILE)"
 echo "- Large Files: $(cat $LARGE_COUNT_FILE)"
 
 # Note: Cleanup will happen automatically via trap
-EOF

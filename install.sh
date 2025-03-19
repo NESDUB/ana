@@ -1,4 +1,3 @@
-cat > install.sh << 'EOF'
 #!/bin/bash
 
 # ana - Code Analyzer for LLM Context
@@ -87,4 +86,3 @@ echo "  ana path/to/directory/  # Analyze specific directory"
 echo ""
 echo -e "${BLUE}For more information and examples, visit:${NC}"
 echo "  https://github.com/NESDUB/ana"
-EOF
